@@ -1,12 +1,8 @@
 #root {
   font: 20px sans-serif;
-  width: 100%;
-  max-width: 400px;
-  margin: 20px auto;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 160px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 #root input{
   font: inherit;
@@ -14,8 +10,7 @@
   height: 40px;
   border-radius: 6px;
   padding-left: 10px;
-  align-items: center;
-  
+
 }
 #root h1{
   font-size: 30px;
@@ -26,9 +21,12 @@
 .App img{
   width: 280px;
   height: 250px;
-  position: relative;
-  left: 55px;
-  bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-left: 35px;
  
 
 }
